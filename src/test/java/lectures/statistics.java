@@ -73,6 +73,7 @@ public class statistics {
     DoubleSummaryStatistics statistics = cars.stream()
         .mapToDouble(Car::getPrice)
         .summaryStatistics();
+
     System.out.println(statistics);
     System.out.println(statistics.getAverage());
     System.out.println(statistics.getCount());

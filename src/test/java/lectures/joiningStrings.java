@@ -1,12 +1,12 @@
 package lectures;
 
 import com.google.common.collect.ImmutableList;
-import java.util.List;
-import java.util.stream.Collectors;
-import mockdata.MockData;
 import org.junit.Test;
 
-public class Lecture11 {
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class joiningStrings {
 
   @Test
   public void joiningStrings() throws Exception {

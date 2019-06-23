@@ -2,16 +2,17 @@ package lectures;
 
 
 import beans.Car;
+import mockdata.MockData;
+import org.assertj.core.util.Lists;
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import mockdata.MockData;
-import org.assertj.core.util.Lists;
-import org.junit.Test;
 
-public class Lecture8 {
+public class groupingData {
 
   @Test
   public void simpleGrouping() throws Exception {
@@ -43,7 +44,7 @@ public class Lecture8 {
     Map<String, Long> counting = names.stream()
         .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-    counting.forEach((name, count) -> System.out.println(name + " > " + count));
+    counting.forEach((name, count) -> System.out.println(name + " = " + count));
   }
 
 }

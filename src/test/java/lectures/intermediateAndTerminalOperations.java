@@ -1,10 +1,11 @@
 package lectures;
 
-import java.util.stream.Collectors;
 import mockdata.MockData;
 import org.junit.Test;
 
-public class Lecture13 {
+import java.util.stream.Collectors;
+
+public class intermediateAndTerminalOperations {
   @Test
   public void intermediateAndTerminalOperations() throws Exception {
     System.out.println(

@@ -2,13 +2,14 @@ package lectures;
 
 
 import com.google.common.collect.Lists;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Lecture10 {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class flatMap {
 
   private static final List<ArrayList<String>> arrayListOfNames = Lists.newArrayList(
       Lists.newArrayList("Mariam", "Alex", "Ismail"),
