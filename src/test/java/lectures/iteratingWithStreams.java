@@ -1,12 +1,13 @@
 package lectures;
 
 import beans.Person;
-import java.util.List;
-import java.util.stream.IntStream;
 import mockdata.MockData;
 import org.junit.Test;
 
-public class Lecture2 {
+import java.util.List;
+import java.util.stream.IntStream;
+
+public class iteratingWithStreams {
 
   @Test
   public void range() throws Exception {

@@ -1,18 +1,15 @@
 package lectures;
 
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import beans.Car;
-import com.google.common.collect.ImmutableList;
-import java.math.BigDecimal;
-import java.util.DoubleSummaryStatistics;
-import java.util.List;
-import java.util.stream.Collectors;
 import mockdata.MockData;
 import org.junit.Test;
 
-public class Lecture7 {
+import java.math.BigDecimal;
+import java.util.DoubleSummaryStatistics;
+import java.util.List;
+
+public class statistics {
 
   @Test
   public void count() throws Exception {

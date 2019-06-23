@@ -1,19 +1,20 @@
 package lectures;
 
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import beans.Car;
 import beans.Person;
 import beans.PersonDTO;
 import com.google.common.collect.ImmutableList;
-import java.util.List;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
 import mockdata.MockData;
 import org.junit.Test;
 
-public class Lecture5 {
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class filteringAndTransformation {
 
   @Test
   public void understandingFilter() throws Exception {
@@ -27,6 +28,7 @@ public class Lecture5 {
 
     carsFiltered.forEach(System.out::println);
     System.out.println(carsFiltered.size());
+
   }
 
 

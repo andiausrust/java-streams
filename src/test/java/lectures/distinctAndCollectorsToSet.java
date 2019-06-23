@@ -1,15 +1,16 @@
 package lectures;
 
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import com.google.common.collect.ImmutableList;
+import org.junit.Test;
+
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
-import org.junit.Test;
 
-public class Lecture4 {
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class distinctAndCollectorsToSet {
 
   @Test
   public void distinct() throws Exception {
