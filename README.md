@@ -1,4 +1,7 @@
 # java streams api
+
+## test/java/lectures:
+
 ### - collect
 ### - distinctAndCollectorsToSet
 ### - filteringAndTransformation
